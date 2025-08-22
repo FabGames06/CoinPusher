@@ -27,7 +27,7 @@ public class ShakeEffect : MonoBehaviour
                 piece.GetComponent<ShakePhysics>().ApplyShake();
             }
 
-            gm.nbTokens -= 20;
+            gm.nbTokens -= 10;
             gm.RefreshTokens();
         }
     }
